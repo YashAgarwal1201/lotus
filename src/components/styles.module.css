@@ -1,0 +1,13 @@
+
+@import url(https://www.w3schools.com/w3css/4/w3.css);
+
+* {
+	box-sizing: border-box;
+}
+html, body {
+	min-height: 100%;	max-width: 100%;
+}
+
+body {
+	background: linear-gradient(12deg, crimson, deeppink);
+}
