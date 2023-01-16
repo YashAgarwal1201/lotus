@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Navbar />
       <div>
-        <p></p>
+        <p>This is a paragraph</p>
       </div>
       <p className="w3-center">Hello There!</p>
     </>
