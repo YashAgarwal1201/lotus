@@ -1,5 +1,5 @@
 import * as React from "react"
-import * as style from "../components/styles.module.css"
+import * as styles from "../components/styles.module.css"
 import Layout from "../components/Layout.js"
 
 export default function Home() {
