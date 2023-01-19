@@ -1,15 +1,16 @@
 import * as React from "react"
-import Navbar from "../components/Navbar.js"
 import * as style from "../components/styles.module.css"
+import Layout from "../components/Layout.js"
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <div>
-        <p>This is a paragraph</p>
-      </div>
-      <p className="w3-center">Hello There!</p>
+      <Layout>
+        <div>
+          <p>This is a paragraph</p>
+        </div>
+        <p className="w3-center">Hello There!</p>
+      </Layout>
     </>
   )
 }
