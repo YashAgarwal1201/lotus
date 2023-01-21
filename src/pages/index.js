@@ -7,13 +7,15 @@ const UserContext = createContext();
 
 function Navbar() {
   const [navbar, navbarState] = useContext(UserContext)
+  const buttonStyles = `w3-button w3-hover-black w3-padding-16 material-icons`
   return (
     <div className={`w3-text-white w3-border ${styles.mainNavigation}`}>
-      <button className={`w3-btn`} onClick={() => navbarState('Home') }>Home</button>
-      <button className={`w3-btn`} onClick={() => navbarState('About') }>About</button>
-      <button className={`w3-btn`} onClick={() => navbarState('Work') }>Work</button>
-      <button className={`w3-btn`} onClick={() => navbarState('Feedback') }>Feedback</button>
-      <Link className={`w3-btn`} to="../pages/404">Error Page</Link>
+      <button className={`${buttonStyles}`} onClick={() => navbarState('Home') }>home</button>
+      <button className={`${buttonStyles}`} onClick={() => navbarState('About') }>person</button>
+      <button className={`${buttonStyles}`} onClick={() => navbarState('Work') }>work</button>
+      <button className={`${buttonStyles}`} onClick={() => navbarState('Feedback') }>rate_review</button>
+      <button className={`w3-circle w3-text-pink w3-white w3-margin-top ${buttonStyles}`} onClick={() => console.log('extra page btn')}>add</button>
+      {/*<Link className={`${buttonStyles}`} to="../pages/404">error</Link>*/}
     </div>
   )
 }

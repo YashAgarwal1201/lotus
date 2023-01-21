@@ -7,7 +7,7 @@ import Work from '../components/Work.js'
 import Feedback from '../components/Feedback.js'
 import * as styles from "../components/styles.module.css"
 
-function Navbar() {
+/*function Navbar() {
 	return (
 		<div className={`w3-text-white w3-border ${styles.mainNavigation}`}>
 			<button className={`w3-btn`}>Home</button>
@@ -17,7 +17,7 @@ function Navbar() {
 			<Link className={`w3-btn`} to="../pages/404">Error Page</Link>
 		</div>
 	)
-}
+}*/
 
 export default function Layout({children}) {
 	return (
