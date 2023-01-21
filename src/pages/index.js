@@ -1,5 +1,6 @@
 import * as React from "react"
 import * as styles from "../components/styles.module.css"
+//import Navbar from '../components/Navbar.js'
 import Layout from "../components/Layout.js"
 
 export default function Home() {
