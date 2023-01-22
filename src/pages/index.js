@@ -14,8 +14,8 @@ function Navbar() {
       <button className={`${buttonStyles}`} onClick={() => navbarState('About') }>person</button>
       <button className={`${buttonStyles}`} onClick={() => navbarState('Work') }>work</button>
       <button className={`${buttonStyles}`} onClick={() => navbarState('Feedback') }>rate_review</button>
-      <button className={`w3-circle w3-text-pink w3-white w3-margin-top ${buttonStyles}`} onClick={() => console.log('extra page btn')}>add</button>
-      {/*<Link className={`${buttonStyles}`} to="../pages/404">error</Link>*/}
+      {/*<button className={`w3-circle w3-text-pink w3-white w3-margin-top ${buttonStyles}`} onClick={() => console.log('extra page btn')}>add</button>
+      <Link className={`${buttonStyles}`} to="../pages/404">error</Link>*/}
     </div>
   )
 }
